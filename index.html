@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Calculadora de NDPCal%</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculadora de NDPCal%</h1>
+        <p>VET &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="" id="vet" placeholder="2000"></p>
+        <p>NPU &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="" id="npu" disabled placeholder=""></p>
+        <p>PTN &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" name="" id="ptn"></p>
+        <p>NDPCal% &nbsp; <input type="text" name="" id="ndpcal" disabled placeholder=""></p>
+        <select id="opcao">
+            <option value="0.5" name="cereal">Cereal ou vegetal</option>
+            <option value="0.6" name="Leguminosas">Leguminosas</option>
+            <option value="0.7" name="Animal">Animal</option>
+        </select>
+
+
+        <button onclick="executar();">Calcular</button>
+        <br><br>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
