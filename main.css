@@ -1,6 +1,5 @@
 * {
   padding: 0;
-  background-color: black;
 }
 
 body {
@@ -10,6 +9,7 @@ body {
   justify-items: center;
   width: fit-content;
   margin: 0 auto;
+  background-color: rgb(201, 255, 204);
 }
 .container {
   padding: 2rem;
@@ -66,4 +66,13 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+@media screen and (max-width: 500px) {
+
+  .container {
+    border: 0px;
+    border-radius: 0;
+  }
+
 }
